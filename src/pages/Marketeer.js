@@ -4,7 +4,7 @@ import Likes from '../components/Likes'
 
 const Marketeer = () => {
     return (
-        <Likes />
+        <CommentsCount />
     )
 }
 
