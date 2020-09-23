@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+
+header {
+    display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
